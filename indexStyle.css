@@ -9,8 +9,8 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px
-    background-color: lavenderblush;
+    margin: 50px;
+    
 }
 
 .box{
@@ -21,6 +21,7 @@ h1{
     height: 150px;
     width: 150px;
     cursor:grab;
+    border-radius: 15%;
     background-color: lavenderblush;
 }
 .droppableContainer{
@@ -37,13 +38,14 @@ h1{
     justify-content: space-around;
     height:160px;
     width: 200px;
+    border: 1px solid black;
+    border-radius: 15%;
 }
 
 .draggableFormat{
     font-weight:bold;
     color: #7a00ff;
     border: 5px dotted black;
-    background-color: lavenderblush;
 }
 
 img{
