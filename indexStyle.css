@@ -10,7 +10,7 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     margin: 50px
-    
+    background-color: lavenderblush;
 }
 
 .box{
