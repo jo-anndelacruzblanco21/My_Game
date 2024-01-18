@@ -33,7 +33,7 @@ h1{
 
 .droppable{
     display: flex;
-    background-color: white ;
+    background-color: lavenderblush;
     align-items: center;
     justify-content: space-around;
     height:160px;
