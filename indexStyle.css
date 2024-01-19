@@ -10,34 +10,31 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
-    
 }
 
 .box{
     display: flex;
     background-color: white;
     align-items: center;
-    justify-content: space-around;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     cursor:grab;
     border-radius: 15%;
-    background-color: lavenderblush;
+    text-align: center;
 }
 .droppableContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: lavenderblush;
+    background-color: white ;
 }
 
 .droppable{
     display: flex;
-    background-color: lavenderblush;
     align-items: center;
     justify-content: space-around;
-    height:160px;
-    width: 200px;
+    height:150px;
+    width: 230px;
     border: 1px solid black;
     border-radius: 15%;
 }
@@ -46,10 +43,4 @@ h1{
     font-weight:bold;
     color: #7a00ff;
     border: 5px dotted black;
-}
-
-img{
-    height: 135px; 
-    width: 135px;
-    border-radius: 50%;
 }
